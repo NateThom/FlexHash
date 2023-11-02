@@ -22,8 +22,6 @@ The data is provided under the MIT license and we request that anybody utilizing
 
 If you use the DoppelVer dataset in your work, please cite it as:
 
-...
-
 N. Thom, J. Thom, B. Charyyev, E. M. Hand, S. Sengupta “FlexHash: Hybrid Locality Sensitive Hashing for IoT Device Identification” IEEE Consumer Communications & Networking Conference, 2024.
 
 BibTeX: 
