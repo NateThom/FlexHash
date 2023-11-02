@@ -5,11 +5,10 @@ Data associated with the paper as well as citation information will be released 
 
 - [Overview](#overview)
 - [Access](#access)
-- [Dataset Details](#dataset-details)
 - [Citation](#citation)
+- [Dataset Details](#dataset-details)
 - [Dataset Structure](#dataset-structure)
 - [License](#license)
-- [Code](#code)
 
 ## Overview
 This repository is intended to provide documentation on the FlexHash dataset as well as the code written during the development of our research ideas. A link to the dataset is provided below.
@@ -18,17 +17,8 @@ The **FlexHash** dataset is a collection of .pcapng files which makeup the devic
 
 ## Access
 Individuals interested in using the FlexHash dataset can visit the following link to download the data: 
+
 The data is provided under the MIT license and we request that anybody utilizing the data cite our work as detailed in the citation section of this README.
-
-## Dataset Details
-
-- **Dataset Name**: FlexHash dataset
-- **Version**: 1.0
-- **Release Date**: 11/1/23
-- **Number of Devices**: 24
-- **Number of Device Types**: 3
-- **Number of Pakcets**: 505,032
-- **File Format**: pcapng
 
 ## Citation
 
@@ -47,6 +37,16 @@ BibTeX:
   year = {2024},
 }
 ```
+
+## Dataset Details
+
+- **Dataset Name**: FlexHash dataset
+- **Version**: 1.0
+- **Release Date**: 11/1/23
+- **Number of Devices**: 24
+- **Number of Device Types**: 3
+- **Number of Pakcets**: 505,032
+- **File Format**: pcapng
 
 ## Dataset Structure
 
