@@ -8,7 +8,6 @@ Data associated with the paper as well as citation information will be released 
 - [Citation](#citation)
 - [Dataset Details](#dataset-details)
 - [Dataset Structure](#dataset-structure)
-- [License](#license)
 
 ## Overview
 This repository is intended to provide documentation on the FlexHash dataset as well as the code written during the development of our research ideas. A link to the dataset is provided below.
@@ -54,6 +53,7 @@ The dataset is organized as follows:
 ``` bash
 FlexHash_Dataset/
 ├── README.md
+├── LICENSE
 ├── decompress_script.sh
 ├── cams.tar.gz
 ├── lights.tar.gz
@@ -87,6 +87,7 @@ FlexHash_Dataset/
 │ ├── plug-2
 │ ├── etc.
 ```
+- `LICENSE`: The license for use of the dataset (MIT).
 - `decompress_script.sh`: A bash scipt that takes as input a path to compressed files and decompresses them with multiple cores.
 - `cams.tar.gz/`: A compressed file containing cleaned, no interaction packets from the YI 1080p Home Camera.
 - `lights.tar.gz/`: A compressed file containing both cleaned and uncleaned, no interaction packets from the General Electric CYNC Full-Color Smart Bulb.
