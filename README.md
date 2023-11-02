@@ -99,4 +99,4 @@ Additionally, the cams data does not come with uncleaned packets. We will attemp
 
 ---
 
-We hope you find the DoppelVer dataset valuable for your research or application. If you have any questions or need further assistance, please don't hesitate to contact us at nathanthom@nevada.unr.edu or jthom@unr.edu.
+We hope you find the FlexHash Dataset is valuable for your research or application. If you have any questions or need further assistance, please don't hesitate to contact us at nathanthom@nevada.unr.edu or jthom@unr.edu.
