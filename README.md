@@ -6,8 +6,8 @@ Data associated with the paper as well as citation information will be released 
 - [Overview](#overview)
 - [Access](#access)
 - [Dataset Details](#dataset-details)
-- [Dataset Structure](#dataset-structure)
 - [Citation](#citation)
+- [Dataset Structure](#dataset-structure)
 - [License](#license)
 - [Code](#code)
 
@@ -29,6 +29,24 @@ The data is provided under the MIT license and we request that anybody utilizing
 - **Number of Device Types**: 3
 - **Number of Pakcets**: 505,032
 - **File Format**: pcapng
+
+## Citation
+
+If you use the DoppelVer dataset in your work, please cite it as:
+
+...
+
+N. Thom, J. Thom, B. Charyyev, E. M. Hand, S. Sengupta “FlexHash: Hybrid Locality Sensitive Hashing for IoT Device Identification” IEEE Consumer Communications & Networking Conference, 2024.
+
+BibTeX: 
+```bibtex
+@inproceedings{thom2024flexhash,
+  author = {N. Thom and J. Thom and B. Charyyev and E. M. Hand and S. Sengupta},
+  title = {FlexHash: Hybrid Locality Sensitive Hashing for IoT Device Identification},
+  booktitle = {IEEE Consumer Communications \& Networking Conference},
+  year = {2024},
+}
+```
 
 ## Dataset Structure
 
@@ -78,24 +96,6 @@ FlexHash_Dataset/
 Please note that the naming convention in the cams file is different than that found in the plugs and lights due to a typo during processing. The pcapng files for cams are of the format "<DEVICE>_<DEVICE_NUMBER>-packet..." while pcapng files for lights and plugs are of the format "<DEVICE>_<DEVICE_NUMBER>_packet...". We will address this in a future patch.
 
 Additionally, the cams data does not come with uncleaned packets. We will attempt to add these packets in a future fix as well.
-
-## Citation
-
-If you use the DoppelVer dataset in your work, please cite it as:
-
-...
-
-N. Thom, J. Thom, B. Charyyev, E. M. Hand, S. Sengupta “FlexHash: Hybrid Locality Sensitive Hashing for IoT Device Identification” IEEE Consumer Communications & Networking Conference, 2024.
-
-BibTeX: 
-```bibtex
-@inproceedings{thom2024flexhash,
-  author = {N. Thom and J. Thom and B. Charyyev and E. M. Hand and S. Sengupta},
-  title = {FlexHash: Hybrid Locality Sensitive Hashing for IoT Device Identification},
-  booktitle = {IEEE Consumer Communications \& Networking Conference},
-  year = {2024},
-}
-```
 
 ---
 
